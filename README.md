@@ -2,21 +2,18 @@ my LinkedIn profile--> https://www.linkedin.com/in/sivasai-sariki-407774229
 Project Title--> Credit Card Default Prediction using Data Science models
 The data set consists of 2000 samples from each of two categories. Five variables are
 
-Income
-Age
-Loan
-Loan to Income (engineered feature)
+Income of the person,
+Age of the person,
+Loan amount,
+Loan to Income Ratio (engineered feature)
 Default
-Watch Video Tutorial
-
-Ask Doubt in FREE Live QnA Session
 
 # Step 1 : import library
 import pandas as pd
 # Step 2 : import data
 default = pd.read_csv('https://github.com/ybifoundation/Dataset/raw/main/Credit%20Default.csv')
 default.head()
-Income	Age	Loan	Loan to Income	Default
+Income	Age	Loan	Loan-Income	Default
 0	66155.92510	59.017015	8106.532131	0.122537	0
 1	34415.15397	48.117153	6564.745018	0.190752	0
 2	57317.17006	63.108049	8020.953296	0.139940	0
@@ -139,18 +136,3 @@ print(classification_report(y_test,y_pred))
    macro avg       0.90      0.88      0.89       600
 
 weighted avg       0.95      0.95      0.95       600
-
-
-Don't Forget to Star and Watch on GitHub to Receive Updates
-Action 1: ⭐Star Repository as it make easy for you to find it again. You can see all the repositories and topics you have starred by going to your stars page.
-
-Action 2: 👁 Watch Repository and get notified of all future updates and activities in this repository.
-
-Click Here to Visit Fundamental Repository on GitHub
-
-image.png
-
-Don't Forget to Upvote NoteBook on Kaggle and Receive Updates
-Click Here to Visit Kaggle
-
-image.png
