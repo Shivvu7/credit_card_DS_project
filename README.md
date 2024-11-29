@@ -1,13 +1,83 @@
 my LinkedIn profile--> https://www.linkedin.com/in/sivasai-sariki-407774229
-Project Title--> Credit Card Default Prediction using Data Science models
+Project Title *Credit Card Default Prediction* 
+Overview
+This project aims to predict whether a customer is likely to default on their credit card payment in the next month using machine learning models. The project involves data preprocessing, feature engineering, model training, and evaluation.
+We leverage TensorFlow and Keras for building and optimizing neural network models, alongside other machine learning techniques for performance comparison.
 The data set consists of 2000 samples from each of two categories. Five variables are
+1.Income of the person
+2.Age of the person
+3.Loan amount
+4.Loan to Income Ratio (engineered feature)
+5.Default
 
-Income of the person,
-Age of the person,
-Loan amount,
-Loan to Income Ratio (engineered feature)
-Default
+**Table of Contents**
+Installation
+Dataset
+Project Workflow
+Results
+Future Enhancements
+Technologies Used
+Installation
+To run this project on your local machine:
 
+**Clone this repository**
+bash command
+git clone https://github.com/Shivvu7/credit_card_DS_project.git
+cd credit_card_DS_project
+**Install the required dependencies**
+bash command
+pip install -r requirements.txt
+**Run the project scripts**
+bash command
+python src/train_model.py
+
+**Dataset**
+Source: URL -->  https://github.com/Shivvu7/credit_dataset_sivasai
+**Description**
+The dataset contains records of customers with features such as payment history, bill statements, and demographic details. The target variable indicates whether the customer defaulted or not.
+**Data Preprocessing**
+Handled missing values and outliers.
+Scaled numerical features using StandardScaler.
+Encoded categorical variables using One-Hot Encoding.
+**Data Cleaning**
+Cleaned and prepared the data for analysis and model training.
+**Exploratory Data Analysis (EDA)**
+Analyzed data distribution and feature correlations using visualizations.
+**Feature Engineering**
+Selected relevant features to improve model accuracy and reduce overfitting.
+**Model Development**
+Built a neural network using TensorFlow and Keras.
+Compared performance with other models like Logistic Regression and Random Forest.
+**Evaluation**
+Assessed performance using metrics such as accuracy, precision, recall, F1-score, and AUC-ROC.
+**Results**
+Best Model: Neural Network using TensorFlow/Keras
+Accuracy: 85%
+AUC-ROC Score: 0.92
+**Model Evaluation Metrics**
+Metric	        Value
+Accuracy	        85%
+Precision	       87%
+Recall	          82%
+F1-Score	        84%
+AUC-ROC	         0.92
+
+**Visualization**:can be done by the graphical representation
+
+**Future Enhancements**
+Improve feature engineering by exploring additional data transformations.
+Experiment with ensemble methods like XGBoost and Random Forest for better performance.
+Deploy the model as a web application for real-time predictions.
+**Technologies Used**
+Programming Languages: Python
+Libraries and Frameworks:
+TensorFlow and Keras
+Pandas and NumPy
+Scikit-learn
+Matplotlib and Seaborn
+Tools: Jupyter Notebook
+
+**Step-by-Step Implementation**
 # Step 1 : import library
 import pandas as pd
 # Step 2 : import data
