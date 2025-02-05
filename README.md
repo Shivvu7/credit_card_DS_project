@@ -1,4 +1,5 @@
-# Credit Card Fraud Detection
+
+![Alt text](https://repository-images.githubusercontent.com/223699949/0601d980-5912-11eb-8486-3237a1e3c4cf)
 
 ## Project Overview
 This project focuses on detecting fraudulent credit card transactions through data preprocessing, comprehensive analysis, visualization, and machine learning models. By exploring and modeling transaction data, the project aims to identify patterns and insights to improve fraud detection accuracy.
