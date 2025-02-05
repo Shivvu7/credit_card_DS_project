@@ -5,7 +5,7 @@
 This project focuses on detecting fraudulent credit card transactions through data preprocessing, comprehensive analysis, visualization, and machine learning models. By exploring and modeling transaction data, the project aims to identify patterns and insights to improve fraud detection accuracy.
 
 ## Dataset
-The dataset used for this project is sourced from [Kaggle's Credit Card Fraud Detection dataset](https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud). It includes transaction records with features like amount, time, and anonymized attributes that provide patterns for fraud detection.
+The dataset used for this project is sourced from [Here You can find the dataset](https://github.com/Shivvu7/credit_dataset_sivasai/blob/main/dataset.csv.xlsx). It includes transaction records with features like amount, time, and anonymized attributes that provide patterns for fraud detection.
 
 ## Project Structure
 
