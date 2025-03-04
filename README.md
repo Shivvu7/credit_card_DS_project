@@ -73,4 +73,4 @@ where requirements.txt includes: ✔️ pandas
 * The best-performing model accurately distinguishes between fraud and legitimate transactions, providing a foundation for further enhancements in fraud detection.
 
 ## License
-This project is licensed under the MIT License. See the [LICENSE]((https://github.com/Shivvu7/credit_card_fraud_detection/blob/main/LICENSE) file for details.
+This project is licensed under the MIT License. See the [LICENSE](https://github.com/Shivvu7/credit_card_fraud_detection/blob/main/LICENSE) file for details.
